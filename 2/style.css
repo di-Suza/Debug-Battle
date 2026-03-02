@@ -129,6 +129,21 @@ header {
     padding: 0.75rem;
     color: white;
 }
+.form-group .type-selector {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+.form-group .radio-label{
+    background: white;
+    color: black;
+    width: 50%;
+    text-align: center;
+    padding:.7rem 2rem ;
+}
+.form-group .type-selector .radio-label input{
+   display: none;
+}
 
 .section-header{
     display: flex;
@@ -188,4 +203,16 @@ select option {
     padding: 1rem;
     border: none;
     color: var(--text-secondary);
+}
+
+.btn-submit{
+      background: var(--accent);
+    color: var(--bg);
+    border: none;
+    margin:1rem 0;
+    padding: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
 }
